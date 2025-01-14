@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@media (max-width: 1000px) {
+    .menu {
+        width: 50% !important;;
+    }
+}
+
+@media (max-width: 720px) {
+    .menu {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 440px) {
+    .sp {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 385px) {
+    .sp {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width: 330px) {
+    .sp {
+        font-size: 15px !important;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #00b4d8,#ade8f4);
+}
+
+.menu {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    padding-bottom: 1.5%;
+    top: 15%;
+    border-radius: 19px;
+    background: #00b4d8;
+    box-shadow:  6px 6px 13px #008099,-6px -6px 13px #00e8ff;
+}
+
+.input {
+    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.input input{
+    height: 35px;
+    border-style: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    color: #000;
+    width: 80%;
+}
+
+.icond {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icond:hover{
+    background-color: #e2e2e2;
+    transition: 0.4s;
+    scale: 1.05;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+    color: rgb(61, 61, 61);
+}
+
+.weather {
+    width: 40%;
+    height: 40%;
+    margin-top: 30px;
+    color: white;
+}
+
+.temp {
+    display: flex;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.loc {
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.stats {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.display {
+    margin-top: 24%;
+    justify-content: space-between;
+}
+
+.st {
+    justify-self: center;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.sp {
+    color: white;
+    font-weight: 800;
+    font-size: 23px;
+}
+.input input:focus {
+    background-color: #e2e2e2;
+    transition: 0.4s;
+    border: none;
+    outline: none;
+}
